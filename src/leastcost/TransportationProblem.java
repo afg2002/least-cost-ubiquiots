@@ -1,4 +1,4 @@
-package transportationproblem;
+package leastcost;
 
 import java.io.IOException;
 import java.util.LinkedList;
@@ -10,7 +10,7 @@ public class TransportationProblem {
     double []required;
     double []stock;
     double [][]cost;
-    LinkedList<Variable> feasible = new LinkedList<Variable>();
+    LinkedList<Variable> feasible = new LinkedList<>();
 
     int stockSize;
     int requiredSize;
